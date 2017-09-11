@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D3D3D3"
+    tools:context="example.com.intentsproject.MainActivity">
+
+    <Button
+        android:id="@+id/SignUpButton"
+        android:layout_width="106dp"
+        android:layout_height="86dp"
+        android:text="SignUp"
+        tools:layout_editor_absoluteX="335dp"
+        tools:layout_editor_absoluteY="464dp" />
+
+    <Button
+        android:id="@+id/PhotoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Take A Photo"
+        android:onClick="TakeAPhoto"
+        tools:layout_editor_absoluteX="-84dp"
+        tools:layout_editor_absoluteY="722dp" />
+
+    <Button
+        android:id="@+id/VerifyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verify"
+        tools:layout_editor_absoluteX="197dp"
+        tools:layout_editor_absoluteY="220dp" />
+
+    <Button
+        android:id="@+id/AddToContactsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add To Contacts"
+        tools:layout_editor_absoluteX="328dp"
+        tools:layout_editor_absoluteY="279dp" />
+
+    <Button
+        android:id="@+id/CallButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call"
+        tools:layout_editor_absoluteX="307dp"
+        tools:layout_editor_absoluteY="220dp"
+        tools:text="Call" />
+
+    <Button
+        android:id="@+id/WhatsappButton"
+        android:layout_width="213dp"
+        android:layout_height="42dp"
+        android:text="Share Whatsapp"
+        tools:layout_editor_absoluteX="182dp"
+        tools:layout_editor_absoluteY="134dp" />
+
+    <Button
+        android:id="@+id/SendEmailButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:onClick="SendAnEmail"
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="352dp" />
+
+    <Button
+        android:id="@+id/GalleryButton"
+        android:layout_width="122dp"
+        android:layout_height="45dp"
+        android:text="Gallery"
+        android:onClick="OpenGallery"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="104dp" />
+
+    <EditText
+        android:id="@+id/LastNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Last Name"
+        tools:layout_editor_absoluteX="180dp"
+        tools:layout_editor_absoluteY="61dp" />
+
+    <EditText
+        android:id="@+id/ContactNameText"
+        android:layout_width="155dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="279dp" />
+
+    <EditText
+        android:id="@+id/FirstNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="First Name"
+        tools:layout_editor_absoluteX="180dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/PhoneText"
+        android:layout_width="181dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:text="Phone Number"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="220dp" />
+
+    <EditText
+        android:id="@+id/PhoneNumberText"
+        android:layout_width="129dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:text="Phone Number"
+        tools:layout_editor_absoluteX="182dp"
+        tools:layout_editor_absoluteY="279dp" />
+
+    <EditText
+        android:id="@+id/EmailText"
+        android:layout_width="183dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="Email"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="352dp" />
+
+    <RadioButton
+        android:id="@+id/FemaleRadio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Female"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="409dp" />
+
+    <RadioButton
+        android:id="@+id/MaleRadio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Male"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="409dp" />
+
+    <EditText
+        android:id="@+id/MessageText"
+        android:layout_width="300dp"
+        android:layout_height="91dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="Write A Message"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="464dp" />
+</android.support.constraint.ConstraintLayout>
